@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desarrollo web</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+
+    <body>
+        <form action="" id="forma" name="forma" method="post" onsubmit="valida_registro()">
+        <div>
+            <h1>Trabajando con typescript</h1>
+            <br>
+        </div>
+        <div>
+            <div class="col-25">
+                <label>Nombre completo:</label>
+            </div>
+            <div class="col-75">
+                <input maxlength="30" class="Textbox" type="text" name="f_nombre" id="f_nombre" value="" placeholder="Ingrese su nombre ">
+            </div>
+        </div>
+<br>
+<br>
+<br>
+        <div>
+            <div class="col-25">
+                <label>Universidad:</label>
+            </div>
+            <div class="col-75">
+                <select class="combo" name="f_universidad" id="f_universidad">
+                    <option value="0">Seleccione</option>
+                    <option value="1">UAdeC</option>
+                    <option value="2">UTC</option>
+                    <option value="3">Tecnologico de mty</option>
+                </select>
+            </div>
+        </div>
+        <br>
+<br>
+<br>
+        <div>
+            <div class="col-25">
+                <label>Escuela:</label>
+            </div>
+            <div class="col-75">
+                <select class="combo" name="f_escuela" id="f_escuela">
+                    <option value="0">Seleccione</option>
+                </select>
+            </div>
+        </div>
+        <br>
+<br>
+<br>
+        <div>
+            <div class="col-25">
+                <label>Carrera:</label>
+            </div>
+            <div class="col-75">
+                <select class="combo" name="f_carrera" id="f_carrera">
+                    <option value="0">Seleccione</option>
+                </select>
+            </div>
+        </div>
+        <br>
+<br>
+<br>
+<div>
+    <div class="col-25">
+        <label>Matricula:</label>
+    </div>
+    <div class="col-75">
+        <input maxlength="30" class="Textbox" type="text" name="f_matricula" id="f_matriculA" value="" placeholder="Ingrese su MATRICULA ">
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="row2">
+
+    <input class="boton_menu" type="submit" name="add" id="add" value="Registrar">
+
+</div>
+</form>
+<script type="text/typescript" src="../ejemplo.ts"></script>
+    </body>
+</html>
