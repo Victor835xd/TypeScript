@@ -1,0 +1,47 @@
+h1{
+    color: aqua;
+    text-align: center;
+}
+body{
+    background-color: dimgrey;
+}
+.col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+}
+label{
+    padding: 12px 12px 12px 0;
+    font-weight: bold;
+}
+.Textbox{
+    left:200px; 
+    height: 30px;
+    width: 350px;
+}
+.combo{
+    left:200px; 
+    height: 30px;
+    width: 360px;
+}
+
+.boton_menu {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    background-color: blue;
+    align-content: center;
+}
+#row2 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
